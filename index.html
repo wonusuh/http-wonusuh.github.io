@@ -1,23 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <meta property="og:title" content="Porfolio">
-    <meta property="og:description" content="박연미의 포트폴리오">
-    <meta property="og:image" content="resources/images/og-image.jpg">
+    <meta content="Porfolio" property="og:title">
+    <meta content="서원우의 포트폴리오" property="og:description">
+    <meta content="resources/images/og-image.jpg" property="og:image">
 
-    <link rel="shortcut icon" href="https://genfavicon.com/tmp/icon_fe557ac92d4135451e97521db493dad3.ico">
-    <link rel="stylesheet" href="resources/style/index.css">
-    <title>박 연미</title>
+    <link href="https://genfavicon.com/tmp/icon_49889b18675785f6881db2bce4e4b378.ico" rel="shortcut icon">
+    <link href="resources/style/index.css" rel="stylesheet">
+    <title>서원우</title>
 </head>
-
 <body>
-    <header class="mobile">
-        <h1>박 연미</h1>
+<header class="mobile">
+    <h1>서원우</h1>
+    <div class="projects-tag tag">
+        <span>Projects</span>
+    </div>
+    <div class="myInfos-tag tag">
+        <span>myInfos</span>
+    </div>
+</header>
+<div class="container">
+    <header class="web">
+        <h1>서원우</h1>
         <div class="projects-tag tag">
             <span>Projects</span>
         </div>
@@ -25,149 +33,131 @@
             <span>myInfos</span>
         </div>
     </header>
-    <div class="container">
-        <header class="web">
-            <h1>박 연미</h1>
-            <div class="projects-tag tag">
-                <span>Projects</span>
-            </div>
-            <div class="myInfos-tag tag">
-                <span>myInfos</span>
-            </div>
-        </header>
-        <div class="contents">
-            <section class="myInfos showTags" data-value="myInfos">
-                <article class="profile">
-                    <img src="/resources/images/yao.gif">
-                    <ul>
-                        <li>
-                            <h4> Contact</h4>
-                            <ul>
-                                <li>sample@gmail.com</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <h4>Skills</h4>
-                            <ul>
-                                <li>Java</li>
-                                <li>JSP</li>
-                                <li>Thymleaf</li>
-                                <li>Spring Boot</li>
-                                <li>SQL</li>
-                                <li>MyBatis</li>
-                                <li>JPA</li>
-                                <li>JavaScript</li>
-                                <li>Docker</li>
-                                <li>AWS</li>
-                                <li>Git</li>
-                            </ul>
-                        </li>
-
-                    </ul>
-                </article>
-            </section>
-            <section class="projects showTags" data-value="projects">
-                <div class="backend">
-                    <article class="project-name">
-                        <a target="_blank" href="about:blank">
-                            <div class="project-img"><img src="/resources/images/test1.gif"></div>
-                        </a>
-                        <h3 class="title">프로젝트명 (Project Name)</h3>
-                        <h6 class="description">프로젝트에 대한 설명</h6>
-                        <div class="skills">
-                            <span>Java 17</span>
-                            <span>Spring Boot 3</span>
-                            <span>Thymleaf</span>
-                            <span>Docker</span>
-                            <span>MySql </span>
-                            <span>JPA</span>
-                            <span>AWS</span>
-                        </div>
-                        <span class="period">2024.04.01 ~ 2024.04.23</span>
-                    </article>
-                    <article class="project-name">
-                        <a target="_blank" href="about:blank">
-                            <div class="project-img"></div>
-                        </a>
-                        <h3 class="title">프로젝트명 (Project Name)</h3>
-                        <h6 class="description">프로젝트에 대한 설명</h6>
-                        <div class="skills">
-                            <span>Java 11</span>
-                            <span>Eclise</span>
-                            <span>JSP</span>
-                            <span>Apache Tomcat 9</span>
-                            <span>MyBatis</span>
-                            <span>Mysql</span>
-                        </div>
-                        <span class="period">2024.04.01 ~ 2024.04.23</span>
-                    </article>
-                    <article class="project-name">
-                        <a target="_blank" href="about:blank">
-                            <div class="project-img"></div>
-                        </a>
-                        <h3 class="title">프로젝트명 (Project Name)</h3>
-                        <h6 class="description">프로젝트에 대한 설명</h6>
-                        <div class="skills">
-                            <span>javascript</span>
-                            <span>Html</span>
-                            <span>CSS</span>
-                        </div>
-                        <span class="period">2023.04.01 ~ 2023.04.10</span>
-                    </article>
-
-                </div>
-                <hr>
-                <div class="frontend"></div>
-            </section>
-            <section class="myInfos showTags" data-value="myInfos">
-                <article>
-                    <a href="about blank">
-                        <div class="likes-img"><img src="/resources/images/01.jpg"></div>
-                    </a>
-                    <h6>나를 소개하는 관심사</h6>
-                </article>
+    <div class="contents">
+        <section class="myInfos showTags" data-value="myInfos">
+            <article class="profile">
+                <img alt="프로필사진" src="/resources/images/yao.gif">
                 <ul>
                     <li>
-                        <h4>Education</h4>
+                        <h4>Contact</h4>
                         <ul>
-                            <li>2023.10.10 ~ 2024.04.24 : 자바 웹 개발 (Docker) 양성 과정 </li>
+                            <li>wonwooseo23@gmail.com</li>
                         </ul>
                     </li>
                     <li>
-                        <h4>Certificates</h4>
+                        <h4>Skills</h4>
                         <ul>
-                            <li>정보처리산업기사 (2024)</li>
-                            <li>보유 자격증 2</li>
-                            <li>보유 자격증 3</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h4>Experience</h4>
-                        <ul>
-                            <li>2023.08 ~ 2024.05 : Java Instructor</li>
-                            <li>2022.06 ~ 2022.08 : Java Instructor</li>
-                            <li>2021.07 ~ 2022.03 : Java Instructor</li>
-                            <li>2020.08 ~ 2020.10 : Java Developer</li>
-                            <li>2019.10 ~ 2020.09 : Java Developer</li>
+                            <li>JavaScript</li>
+                            <li>Java</li>
+                            <li>JSP</li>
+                            <li>Thymeleaf</li>
+                            <li>Spring Boot</li>
+                            <li>Spring Security</li>
+                            <li>MyBatis</li>
+                            <li>JPA</li>
+                            <li>MySQL</li>
+                            <li>Docker</li>
+                            <li>AWS</li>
+                            <li>Git</li>
                         </ul>
                     </li>
 
                 </ul>
-            </section>
-
-        </div>
-    </div>
-    <footer>
-        <div class="info">
+            </article>
+        </section>
+        <section class="projects showTags" data-value="projects">
+            <div class="backend">
+                <article class="project-name">
+                    <a href="about:blank" target="_blank">
+                        <div class="project-img"><img alt="test" src="/resources/images/test1.gif"></div>
+                    </a>
+                    <h3 class="title">게임 구매 서비스 (TheJoeunGames)</h3>
+                    <h6 class="description">steam 플랫폼에서 인기게임 정보들을 확인하고 구매하는 사이트입니다.</h6>
+                    <div class="skills">
+                        <span>Thymeleaf</span>
+                        <span>SpringBoot</span>
+                        <span>JPA</span>
+                    </div>
+                    <span class="period">2024.04 ~ 2024.04 (3주)</span>
+                </article>
+                <article class="project-name">
+                    <a href="about:blank" target="_blank">
+                        <div class="project-img"></div>
+                    </a>
+                    <h3 class="title">영화 예매 서비스 (Project Name)</h3>
+                    <h6 class="description">프로젝트에 대한 설명</h6>
+                    <div class="skills">
+                        <span>Java 11</span>
+                        <span>Eclipse</span>
+                        <span>JSP</span>
+                        <span>Apache Tomcat 9</span>
+                        <span>MyBatis</span>
+                        <span>Mysql</span>
+                    </div>
+                    <span class="period">2024.04.01 ~ 2024.04.23</span>
+                </article>
+                <article class="project-name">
+                    <a href="about:blank" target="_blank">
+                        <div class="project-img"></div>
+                    </a>
+                    <h3 class="title">프로젝트명 (Project Name)</h3>
+                    <h6 class="description">프로젝트에 대한 설명</h6>
+                    <div class="skills">
+                        <span>javascript</span>
+                        <span>Html</span>
+                        <span>CSS</span>
+                    </div>
+                    <span class="period">2023.04.01 ~ 2023.04.10</span>
+                </article>
+            </div>
+            <hr>
+            <div class="frontend"></div>
+        </section>
+        <section class="myInfos showTags" data-value="myInfos">
+            <article>
+                <a href="#">
+                    <div class="likes-img"><img alt="temporary" src="/resources/images/01.jpg"></div>
+                </a>
+                <h6>나를 소개하는 관심사</h6>
+            </article>
             <ul>
-                <li>Location : Seoul, Korea</li>
-                <li>Email : <a target="_blank" href="mailto: sample@gmail.com">sample@gmail.com</a></li>
+                <li>
+                    <h4>Education</h4>
+                    <ul>
+                        <li>2023.10.10 ~ 2024.04.24 : 자바 웹 개발 (Docker) 양성 과정</li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>Certificates</h4>
+                    <ul>
+                        <li>정보처리산업기사 (2024)</li>
+                        <li>보유 자격증 2</li>
+                        <li>보유 자격증 3</li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>Experience</h4>
+                    <ul>
+                        <li>2023.08 ~ 2024.05 : Java Instructor</li>
+                        <li>2022.06 ~ 2022.08 : Java Instructor</li>
+                        <li>2021.07 ~ 2022.03 : Java Instructor</li>
+                        <li>2020.08 ~ 2020.10 : Java Developer</li>
+                        <li>2019.10 ~ 2020.09 : Java Developer</li>
+                    </ul>
+                </li>
             </ul>
-        </div>
-        <address>copyrightⓒ 2024 All rights reserved by Yeonmi Park.</address>
-    </footer>
-
-    <script type="text/javascript" src="resources/script/index.js"></script>
+        </section>
+    </div>
+</div>
+<footer>
+    <div class="info">
+        <ul>
+            <li>Location : Suwon, Korea</li>
+            <li>Email : <a href="mailto: sample@gmail.com" target="_blank">sample@gmail.com</a></li>
+        </ul>
+    </div>
+    <address>copyrightⓒ 2024 All rights reserved by Wonu Suh.</address>
+</footer>
 </body>
-
 </html>
+<script src="resources/script/index.js" type="text/javascript"></script>
