@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
@@ -13,18 +14,9 @@
     <link href="resources/style/index.css" rel="stylesheet">
     <title>서원우</title>
 </head>
+
 <body>
-<header class="mobile">
-    <h1>서원우</h1>
-    <div class="projects-tag tag">
-        <span>Projects</span>
-    </div>
-    <div class="myInfos-tag tag">
-        <span>myInfos</span>
-    </div>
-</header>
-<div class="container">
-    <header class="web">
+    <header class="mobile">
         <h1>서원우</h1>
         <div class="projects-tag tag">
             <span>Projects</span>
@@ -33,131 +25,160 @@
             <span>myInfos</span>
         </div>
     </header>
-    <div class="contents">
-        <section class="myInfos showTags" data-value="myInfos">
-            <article class="profile">
-                <img alt="프로필사진" src="/resources/images/yao.gif">
-                <ul>
-                    <li>
-                        <h4>Contact</h4>
-                        <ul>
-                            <li>wonwooseo23@gmail.com</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h4>Skills</h4>
-                        <ul>
-                            <li>JavaScript</li>
-                            <li>Java</li>
-                            <li>JSP</li>
-                            <li>Thymeleaf</li>
-                            <li>Spring Boot</li>
-                            <li>Spring Security</li>
-                            <li>MyBatis</li>
-                            <li>JPA</li>
-                            <li>MySQL</li>
-                            <li>Docker</li>
-                            <li>AWS</li>
-                            <li>Git</li>
-                        </ul>
-                    </li>
-
-                </ul>
-            </article>
-        </section>
-        <section class="projects showTags" data-value="projects">
-            <div class="backend">
-                <article class="project-name">
-                    <a href="about:blank" target="_blank">
-                        <div class="project-img"><img alt="test" src="/resources/images/test1.gif"></div>
-                    </a>
-                    <h3 class="title">게임 구매 서비스 (TheJoeunGames)</h3>
-                    <h6 class="description">steam 플랫폼에서 인기게임 정보들을 확인하고 구매하는 사이트입니다.</h6>
-                    <div class="skills">
-                        <span>Thymeleaf</span>
-                        <span>SpringBoot</span>
-                        <span>JPA</span>
-                    </div>
-                    <span class="period">2024.04 ~ 2024.04 (3주)</span>
-                </article>
-                <article class="project-name">
-                    <a href="about:blank" target="_blank">
-                        <div class="project-img"></div>
-                    </a>
-                    <h3 class="title">영화 예매 서비스 (Project Name)</h3>
-                    <h6 class="description">프로젝트에 대한 설명</h6>
-                    <div class="skills">
-                        <span>Java 11</span>
-                        <span>Eclipse</span>
-                        <span>JSP</span>
-                        <span>Apache Tomcat 9</span>
-                        <span>MyBatis</span>
-                        <span>Mysql</span>
-                    </div>
-                    <span class="period">2024.04.01 ~ 2024.04.23</span>
-                </article>
-                <article class="project-name">
-                    <a href="about:blank" target="_blank">
-                        <div class="project-img"></div>
-                    </a>
-                    <h3 class="title">프로젝트명 (Project Name)</h3>
-                    <h6 class="description">프로젝트에 대한 설명</h6>
-                    <div class="skills">
-                        <span>javascript</span>
-                        <span>Html</span>
-                        <span>CSS</span>
-                    </div>
-                    <span class="period">2023.04.01 ~ 2023.04.10</span>
-                </article>
+    <div class="container">
+        <header class="web">
+            <h1>서원우</h1>
+            <div class="projects-tag tag">
+                <span>Projects</span>
             </div>
-            <hr>
-            <div class="frontend"></div>
-        </section>
-        <section class="myInfos showTags" data-value="myInfos">
-            <article>
+            <div class="myInfos-tag tag">
+                <span>myInfos</span>
+            </div>
+        </header>
+        <div class="contents">
+            <section class="myInfos showTags" data-value="myInfos">
+                <article class="profile">
+                    <img alt="프로필사진" src="./resources/images/profile.jpg">
+                    <ul>
+                        <li>
+                            <h4>Contact</h4>
+                            <ul>
+                                <li>wonwooseo23@gmail.com</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>Skills</h4>
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>Java</li>
+                                <li>Thymeleaf</li>
+                                <li>JSP</li>
+                                <li>Spring Boot</li>
+                                <li>Spring Security</li>
+                                <li>JPA</li>
+                                <li>MySQL</li>
+                                <li>Docker</li>
+                                <li>AWS</li>
+                                <li>Git</li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </article>
+            </section>
+            <section class="projects showTags" data-value="projects">
+                <div class="backend">
+                    <article class="project-name">
+                        <a href="https://github.com/Tyrano1129/GameSaleProject" target="_blank">
+                            <div class="project-img"><img alt="TheJoeunGames"
+                                    src="./resources/images/game_home_page.PNG"></div>
+                        </a>
+                        <h3 class="title">게임 구매 서비스</h3>
+                        <h6 class="description">Steam API로부터 제공받은 현재 인기 게임들을 보여주고 판매하는 사이트입니다.</h6>
+                        <div class="skills">
+                            <span>Thymeleaf</span>
+                            <span>SpringBoot</span>
+                            <span>JPA</span>
+                        </div>
+                        <span class="period">2024.04 ~ 2024.04 (3주)</span>
+                    </article>
+                    <article class="project-name">
+                        <a href="https://github.com/SJL0616/MovieProject" target="_blank">
+                            <div class="project-img"><img alt="TheJoeunGames"
+                                    src="./resources/images/movie_home_page.PNG"></div>
+                        </a>
+                        <h3 class="title">영화 예매 서비스</h3>
+                        <h6 class="description">영화진흥위원회로부터 현재 상영중인 영화들의 데이터를 가져와 보여주고 좌석을 예매하는 사이트입니다.</h6>
+                        <div class="skills">
+                            <span>JSP</span>
+                            <span>JavaServlet</span>
+                            <span>MyBatis</span>
+                        </div>
+                        <span class="period">2024.04.03 ~ 2024.04.03 (3주)</span>
+                    </article>
+                    <article class="project-name">
+                        <a href="https://github.com/wonusuh/Rentcar_MVC_2" target="_blank">
+                            <div class="project-img"><img alt="car_rent" src="./resources/images/rentcar.PNG" /></div>
+                        </a>
+                        <h3 class="title">카 렌트 서비스</h3>
+                        <h6 class="description">프로젝트에 대한 설명</h6>
+                        <div class="skills">
+                            <span>JSP</span>
+                            <span>JavaServlet</span>
+                            <span>MyBatis</span>
+                        </div>
+                        <span class="period">2024.02 ~ 2024.02 (2주)</span>
+                    </article>
+                    <article class="project-name">
+                        <a href="https://wonusuh.github.io/FlyingBird/" target="_blank">
+                            <div class="project-img"><img alt="flying_bird" src="./resources/images/flying_bird.PNG" />
+                            </div>
+                        </a>
+                        <h3 class="title">자바스크립트게임</h3>
+                        <h6 class="description">새가 나무와 구름을 피해서 날아가는 게임입니다.</h6>
+                        <div class="skills">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <span class="period">2024.01 ~ 2024.01 (1주)</span>
+                    </article>
+                </div>
+                <hr>
+                <div class="frontend"></div>
+            </section>
+            <section class="myInfos showTags" data-value="myInfos">
+                <!-- <article>
                 <a href="#">
                     <div class="likes-img"><img alt="temporary" src="/resources/images/01.jpg"></div>
                 </a>
                 <h6>나를 소개하는 관심사</h6>
-            </article>
+            </article> -->
+                <ul>
+                    <li>
+                        <h4>Education</h4>
+                        <ul>
+                            <li>2023.10 ~ 2024.04 : 자바(JAVA) 웹개발(백앤드)&앱개발자(클라우드활용) 취업캠프</li>
+                        </ul>
+                        <ul>
+                            <li>2019.12 ~ 2020.06 : 빅데이터 UI 전문가 양성(Open API를 활용한 빅데이터 시각화)</li>
+                        </ul>
+                        <ul>
+                            <li>2015.03 ~ 2017.02 : 장안대학교 비즈니스영어과</li>
+                        </ul>
+                    </li>
+                    <!-- <li>
+                        <h4>Certificates</h4>
+                        <ul>
+                            <li>정보처리산업기사 (2024)</li>
+                            <li>보유 자격증 2</li>
+                            <li>보유 자격증 3</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Experience</h4>
+                        <ul>
+                            <li>2023.08 ~ 2024.05 : Java Instructor</li>
+                            <li>2022.06 ~ 2022.08 : Java Instructor</li>
+                            <li>2021.07 ~ 2022.03 : Java Instructor</li>
+                            <li>2020.08 ~ 2020.10 : Java Developer</li>
+                            <li>2019.10 ~ 2020.09 : Java Developer</li>
+                        </ul>
+                    </li> -->
+                </ul>
+            </section>
+        </div>
+    </div>
+    <footer>
+        <div class="info">
             <ul>
-                <li>
-                    <h4>Education</h4>
-                    <ul>
-                        <li>2023.10.10 ~ 2024.04.24 : 자바 웹 개발 (Docker) 양성 과정</li>
-                    </ul>
-                </li>
-                <li>
-                    <h4>Certificates</h4>
-                    <ul>
-                        <li>정보처리산업기사 (2024)</li>
-                        <li>보유 자격증 2</li>
-                        <li>보유 자격증 3</li>
-                    </ul>
-                </li>
-                <li>
-                    <h4>Experience</h4>
-                    <ul>
-                        <li>2023.08 ~ 2024.05 : Java Instructor</li>
-                        <li>2022.06 ~ 2022.08 : Java Instructor</li>
-                        <li>2021.07 ~ 2022.03 : Java Instructor</li>
-                        <li>2020.08 ~ 2020.10 : Java Developer</li>
-                        <li>2019.10 ~ 2020.09 : Java Developer</li>
-                    </ul>
-                </li>
+                <li>Location : Suwon, Korea</li>
+                <li>Email : <a href="mailto: sample@gmail.com" target="_blank">wonwooseo23@gmail.com</a></li>
             </ul>
-        </section>
-    </div>
-</div>
-<footer>
-    <div class="info">
-        <ul>
-            <li>Location : Suwon, Korea</li>
-            <li>Email : <a href="mailto: sample@gmail.com" target="_blank">sample@gmail.com</a></li>
-        </ul>
-    </div>
-    <address>copyrightⓒ 2024 All rights reserved by Wonu Suh.</address>
-</footer>
+        </div>
+        <address>copyrightⓒ 2024 All rights reserved by Wonu Suh.</address>
+    </footer>
 </body>
+
 </html>
 <script src="resources/script/index.js" type="text/javascript"></script>

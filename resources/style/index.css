@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400&display=swap");
+
 :root {
   --color-bg: #fdfffd;
   --color-grey: #d1d1d1;
-  --color-accent: #f797c7;
+  /* --color-accent: #f797c7; */
+  --color-accent: navy;
   --color-white: white;
   --color-yellow: #fbffb1;
   --color-dark-grey: #bbb8b8;
@@ -48,7 +50,8 @@ section {
 section::-webkit-scrollbar {
   display: none;
 }
-.profile > img {
+
+.profile>img {
   width: 90%;
   padding: 10px;
   background-color: var(--color-bg);
@@ -73,42 +76,43 @@ hr {
 
 .projects article {
   width: 250px;
-  height: 250px;
+  height: 300px;
   padding: 10px;
   background-color: var(--color-bg);
 }
 
-.projects article > h3,
-.projects article > h6,
-.projects article > div,
-.projects article > span {
+.projects article>h3,
+.projects article>h6,
+.projects article>div,
+.projects article>span {
   width: 100%;
-  height: 25px;
+  height: 30px;
   overflow-x: scroll;
   overflow-y: hidden;
 }
 
-.projects article > h3::-webkit-scrollbar,
-.projects article > h6::-webkit-scrollbar,
-.projects article > div::-webkit-scrollbar,
-.projects article > span::-webkit-scrollbar {
+.projects article>h3::-webkit-scrollbar,
+.projects article>h6::-webkit-scrollbar,
+.projects article>div::-webkit-scrollbar,
+.projects article>span::-webkit-scrollbar {
   display: none;
 }
 
 .project-img {
   height: 60%;
-  filter: grayscale(1);
+  filter: grayscale(0);
   background-size: cover;
   background-color: var(--color-grey);
   overflow: hidden;
 }
 
-.project-img > img {
+.project-img>img {
   width: 100%;
   height: 100%;
 }
+
 .projects article:hover {
-  border-bottom: solid 2px var(--color-accent);
+  border-bottom: solid 5px var(--color-accent);
 }
 
 .projects article:hover .project-img {
@@ -120,7 +124,7 @@ hr {
   align-items: center;
 }
 
-.skills > span {
+.skills>span {
   color: var(--color-bg);
   font-size: 0.8em;
   border: none;
@@ -129,10 +133,12 @@ hr {
   margin-right: 3px;
   background-color: var(--color-grey);
   white-space: nowrap;
+  word-wrap: break-word;
 }
 
-.skills > span:hover {
-  background-color: #f797c7;
+.skills>span:hover {
+  /* background-color: #f797c7; */
+  background-color: navy;
 }
 
 .description {
@@ -144,7 +150,7 @@ hr {
   font-size: 0.8em;
 }
 
-.myInfos > article {
+.myInfos>article {
   height: 20vh;
   padding: 10px;
   margin-bottom: 10px;
@@ -158,25 +164,26 @@ hr {
   background-color: var(--color-bg);
 }
 
-.myInfos > article:hover .likes-img {
+.myInfos>article:hover .likes-img {
   filter: grayscale(0);
   object-fit: cover;
 }
-.myInfos > article .likes-img > img {
+
+.myInfos>article .likes-img>img {
   width: 100%;
   height: 100%;
 }
 
-.myInfos > article > h6 {
+.myInfos>article>h6 {
   color: var(--color-dark-grey);
   background-color: var(--color-bg);
 }
 
-.myInfos > article:hover > h6 {
+.myInfos>article:hover>h6 {
   background-color: var(--color-yellow);
 }
 
-.myInfos > article > h6::selection {
+.myInfos>article>h6::selection {
   background-color: var(--color-accent);
 }
 
@@ -193,7 +200,7 @@ header.mobile {
   display: none;
 }
 
-header > .tag {
+header>.tag {
   display: none;
   color: var(--color-bg);
   padding: 0 5px;
@@ -211,6 +218,7 @@ ul {
 li {
   padding: 5px 0;
   font-size: 0.9em;
+  overflow-wrap: break-word;
 }
 
 footer {
@@ -268,7 +276,7 @@ address {
     height: auto;
   }
 
-  .profile > img {
+  .profile>img {
     display: none;
   }
 
@@ -277,7 +285,7 @@ address {
   }
 
   .projects article,
-  .myInfos > article {
+  .myInfos>article {
     width: 85vw;
     height: 70vw;
   }
