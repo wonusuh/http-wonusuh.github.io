@@ -95,4 +95,4 @@ const bookSearch = new Project(
   ["2024.04.24", "2024.04.24"]
 );
 
-addProject(bookSearch, "frontend", "contain", "center");
+// addProject(bookSearch, "frontend", "contain", "center");
